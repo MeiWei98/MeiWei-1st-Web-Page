@@ -2,42 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css"> 
     <title>Lorem Ipsum</title>
-    <link rel=stylesheet" href="style.css">
+    <link rel=stylesheet" href="styles.css">
+    <script type="text/javascript">
+        var a,b;
+        a = 5;
+        b = 10;
+        var result = a / b;
+        /*
+         +, -, *, /
+         */
+
+        alert("The result is : "+result) 
+    
+    </script>
+
 </head>
 <body>
-    <div class="menu-btn">
-        <div class="menu-btn_burger"></div>
-    <nav role="navigation">
-        <div id="menu-btn">
-            <input type="checkbox" />
-
-            <span></span>
-            <span></span>
-            <span></span>
-            
-            <ul id=menu">
-                <a href="#"><li>Home</li></a>
-                <a href="#"><li>about</li></a>
-                <a href="#"><li>Info</li></a>
-                <a href="#"><li>contact</li></a>
-                <a href="https://https://www.lipsum.com/"
-                target="_blank"><li>Show me more</li></a>
+    <div class="h1">
+    
+      </div>  
+      
+      <div class="container">
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+              </div>
+          <menu class="navbar">
+            <ul>
+              <li><a href="#"><b>home</b></a></li>
+              <li><a href="#"><b>portfolio</b></a></li>
+              <li><a href="#"><b>images</b></a></li>
+              <li><a href="#"><b>contact</b></a></li>
             </ul>
-        </div>   
-    </nav> 
+          </menu>
+        </div>
         
-    </div>
-
     <h1>This is Lorem Ipsum</h1>
     <h2>Our History</h2>
 
     <p class=personal">
-        What is Lorem Ipsum?
+        <img class="myimage" src="/img/unsplash.jpg"/>What is Lorem Ipsum?
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
         <br> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     </p>
@@ -53,7 +62,7 @@
         Nam semper diam sed nibh cursus blandit.</code>    
 
     <small>2021 Lorem Ipsum - All rights reserved</small>
-    <br><a href="privacy.html">Privacy Policy</a>
+    <p><a href="privacy.html">Privacy Policy</a></p>
 
     
     
@@ -63,8 +72,17 @@
 
 </form>
 
+<div>
+    <form method="GET">
+        What is your name: <input type="text" size="20" id="myname" onkeydown = "if (event.keyCode == 13)  document.getElementById('mybutton').click()"   />
+      <input type="text" style="display: none;" />
+      <button type="button" id="mybutton">Submit</button>
+    </form>
+    <div id="hellomessage"></div>
+</div>
 
-<script src="scrip.js"></script>
+
+<script src="script.js"></script>
     
 </body>
 </html>
