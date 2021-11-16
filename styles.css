@@ -238,12 +238,15 @@ p, h1, h2, h3, h4, small, code, form {
   #hellomessage {
     font-weight:bold;
   }
-  
-    
    
   
   }
 
+  .form-input {
+    display: flex;
+    align-items: center;
+  }  
+  
 /* Media Queries */
 /* Portrait */
 @media only screen 

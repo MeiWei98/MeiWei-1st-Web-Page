@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="styles.css"> 
     <title>Lorem Ipsum</title>
     <link rel=stylesheet" href="styles.css">
+    
     <script type="text/javascript">
+    function showAlert(){
         var a,b;
         a = 5;
         b = 10;
@@ -16,8 +18,8 @@
          +, -, *, /
          */
 
-        alert("The result is : "+result) 
-    
+        alert("The result is : "+result)
+    }
     </script>
 
 </head>
@@ -66,13 +68,14 @@
 
     
     
-<form action="search.html" method="POST">
+<!-- <form action="search.html" method="POST">
     <input name="q">
     <input type="submit">
 
-</form>
+</form> -->
+<button onclick="showAlert()">show alert</button>
 
-<div>
+<div class="form-input">
     <form method="GET">
         What is your name: <input type="text" size="20" id="myname" onkeydown = "if (event.keyCode == 13)  document.getElementById('mybutton').click()"   />
       <input type="text" style="display: none;" />
